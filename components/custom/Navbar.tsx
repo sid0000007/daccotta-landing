@@ -3,9 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import logo from "../../assets/logo.jpg";
-import { GitStarBtn } from "./starbtn";
-import github from "../../assets/Footer-icons/github.png";
-import { IconBrandGithub } from "@tabler/icons-react";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -92,15 +89,16 @@ const Navbar: React.FC = () => {
           >
             Contact
           </a>
+          <div className=" ">
           <iframe
-            src="https://ghbtns.com/github-btn.html?user=daccotta-org&repo=daccotta&type=star&count=false&size=large"
+            src="https://ghbtns.com/github-btn.html?user=daccotta-org&repo=daccotta&type=star&count=true&size=large"
             frameBorder="0"
             scrolling="0"
-            width="70"
+            width="170"
             height="30"
-            title="Github"
-            className="github-button ml-2"
+            title="GitHub"
           ></iframe>
+        </div>     
         </div>
       </div>
       {isMenuOpen && (

@@ -6,6 +6,7 @@ import Navbar from "@/components/custom/Navbar";
 import { OurTeam } from "@/components/custom/OurTeam";
 import { cn } from "@/lib/utils";
 import { Inter, Lato } from "next/font/google";
+import { Boxes } from "@/components/ui/background-boxes";
 
 const inter = Inter({
   weight: "700",
@@ -25,6 +26,7 @@ export default function Home() {
 
       <main className={interBody.className}>
         <BeamDesignBg />
+        {/* <Boxes /> */}
         <AboutDaccotta />
         <Features />
 

@@ -24,14 +24,17 @@ export default function AboutDaccotta() {
         </div>
 
         <div className="w-full md:w-1/2 space-y-4 md:ml-6 px-[2rem] md:px-0 lg:px-0">
-          <p className="text-sm sm:text-md lg:text-lg text-gray-300 text-left">
-            Daccotta is a platform built for film enthusiasts to discover, and
-            showcase their taste in movies with like-minded individuals. You can
-            create your own lists, add journal entries of the movies you have
-            watched and get recommendations on the basis of your lists and
-            journal entries. Daccotta a community that brings people together
-            through a shared love of cinema.
-          </p>
+          <ul className="text-xs sm:text-sm lg:text-lg text-gray-300 text-left space-y-5 list-disc pl-4">
+            <li>Film discovery platform</li>
+
+            <li>Personalized movie recommendations</li>
+
+            <li>Create custom lists</li>
+
+            <li>Movie journal entries</li>
+
+            <li>Connect with enthusiasts</li>
+          </ul>
         </div>
       </section>
     </div>
