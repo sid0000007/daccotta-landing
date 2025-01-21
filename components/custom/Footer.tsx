@@ -1,5 +1,5 @@
-"use client";
-import React, { useEffect } from "react";
+
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/logo.jpg";
@@ -44,7 +44,7 @@ const Footer = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center">
         <div className="text-sm text-gray-400 mb-4 md:mb-0 order-3 md:order-1 w-full md:w-auto text-center md:text-left">
-          © Daccotta. All Rights Reserved.
+          © Daccotta 2025. All Rights Reserved.
         </div>
 
         <div className="flex items-center mb-4 md:mb-0 order-1 md:order-2">
